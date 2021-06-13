@@ -1,6 +1,11 @@
 export enum Color { BLUE = 'blue', RED = 'red', YELLOW = 'yellow', BLACK = 'black', GREEN = 'green' };
 
 /**
+ * [![Coverage Status](https://coveralls.io/repos/github/alu0101202952/2daConvocatoria-DSI-14-Junio-Andrea-Calero-Caro/badge.svg?branch=master)](https://coveralls.io/github/alu0101202952/2daConvocatoria-DSI-14-Junio-Andrea-Calero-Caro?branch=master)
+ */
+
+
+/**
  * @class Note, contains the attributes and methods of the Note class
  */
 export class Note {
