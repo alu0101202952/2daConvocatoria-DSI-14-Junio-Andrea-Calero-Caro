@@ -7,7 +7,7 @@
 
 ### Integración Continua
 
-- GitHub Actions, Coveralls:
+- Coveralls:
 
 
 - Sonar-Cloud:
