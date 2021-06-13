@@ -1,0 +1,31 @@
+{
+  "name": "2daconvocatoria-dsi-14-junio-andrea-calero-caro",
+  "version": "1.0.0",
+  "description": "- Alumna: Andrea Calero Caro - alu0101202952@ull.edu.es",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "start": "tsc-watch --onSuccess \"node dist/note.js\"",
+    "doc": "typedoc; touch ./docs/.nojekyll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0101202952/2daConvocatoria-DSI-14-Junio-Andrea-Calero-Caro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0101202952/2daConvocatoria-DSI-14-Junio-Andrea-Calero-Caro/issues"
+  },
+  "homepage": "https://github.com/alu0101202952/2daConvocatoria-DSI-14-Junio-Andrea-Calero-Caro#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.28.0",
+    "eslint-config-google": "^0.14.0",
+    "tsc-watch": "^4.4.0",
+    "typedoc": "^0.20.36"
+  }
+}
